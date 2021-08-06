@@ -1,6 +1,8 @@
+
 body {
     margin:0px;
     padding-top: 800px;
+    text-align: center;
 }
 .profile {
     border-radius: 50%;
@@ -86,4 +88,12 @@ p {
     background-color: dodgerblue;
     border-radius: 10px;
     font-size: 19px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article:hover {
+    color: blue;
 }
